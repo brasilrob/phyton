@@ -1,4 +1,7 @@
-from libs import inserir_num
+from libs.inserir_num import inserir_num
+from libs.remover_num import remover_num
+from libs.Calcuramedia import Calcuramedia
+from libs.soma import soma
 lista_num = []
 
 while True :
@@ -13,16 +16,16 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-        lista_num.append(libs.inserir_num()) 
+        lista_num.append(inserir_num()) 
     elif opcao_usuario == 2:
-        lista_num.remove(libs.remover_num())
+        lista_num.remove(remover_num())
 
     elif opcao_usuario == 3:
-        libs.media()
+        Calcuramedia()
 
     elif opcao_usuario == 4:
-        libs.soma()
-        
+        soma()
+
     elif opcao_usuario == 5:
         print(lista_num)
 
