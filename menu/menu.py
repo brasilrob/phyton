@@ -2,9 +2,7 @@ import libs
 lista_num = []
 
 #-----variaveis----global-----#
-numero = 0
-media = 0
-soma = 0
+
 
 
 
@@ -20,8 +18,9 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-
+        
     elif opcao_usuario == 2:
+        def remover_num()
 
     elif opcao_usuario == 3:
 
