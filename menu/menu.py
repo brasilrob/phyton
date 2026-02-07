@@ -18,16 +18,17 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-        
+        libs.inserir_num()
     elif opcao_usuario == 2:
-        def remover_num()
+        libs.remover_num()
 
     elif opcao_usuario == 3:
 
     elif opcao_usuario == 4:
 
     elif opcao_usuario == 5:
-
+        print(lista_num)
+        
     elif opcao_usuario == 6:
         break
 
