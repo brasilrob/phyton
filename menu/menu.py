@@ -1,6 +1,12 @@
+import sys
+import os
+
+# Adiciona a pasta phyton ao sys.path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 from libs.inserir_num import inserir_num
 from libs.remover_num import remover_num
-from libs.Calcuramedia import Calcuramedia
+from libs.Calcuramedia import media
 from libs.soma import soma
 lista_num = []
 
@@ -21,10 +27,10 @@ while True :
         lista_num.remove(remover_num())
 
     elif opcao_usuario == 3:
-        Calcuramedia()
+        print(media())
 
     elif opcao_usuario == 4:
-        soma()
+        print(soma())
 
     elif opcao_usuario == 5:
         print(lista_num)

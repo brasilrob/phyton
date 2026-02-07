@@ -1,9 +1,9 @@
-import menu 
-def remover_num():
+
+def remover_num(lista = []):
     while True:
-        print(menu.lista_num)
+        print(lista)
         num_apagar = int(input("Escolha um número para apagar:"))
-        if num_apagar in menu.lista_num:
+        if num_apagar in lista:
             return num_apagar
             break
         else:
