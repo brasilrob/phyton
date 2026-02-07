@@ -4,7 +4,7 @@ def remover_num():
         print(menu.lista_num)
         num_apagar = int(input("Escolha um número para apagar:"))
         if num_apagar in menu.lista_num:
-            menu.lista_num.remove(num_apagar)
+            return num_apagar
             break
         else:
             print("Esse número não está na lista")

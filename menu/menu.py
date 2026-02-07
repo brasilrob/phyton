@@ -18,9 +18,9 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-        libs.inserir_num()
+        lista_num.append(libs.inserir_num()) 
     elif opcao_usuario == 2:
-        libs.remover_num()
+        lista_num.remove(libs.remover_num())
 
     elif opcao_usuario == 3:
 
