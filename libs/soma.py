@@ -1,6 +1,6 @@
 import menu
 
 def soma():
-    print(sum(menu.lista_num))
+    print("o somátorio de todos os números da lista são:", sum(menu.lista_num))
     
     
