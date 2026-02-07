@@ -28,9 +28,12 @@ while True :
 
     elif opcao_usuario == 5:
         print(lista_num)
-        
+
     elif opcao_usuario == 6:
+        
         break
 
     else:
         print("Essa opção não existe.")
+
+print("Você saiu do programa")
