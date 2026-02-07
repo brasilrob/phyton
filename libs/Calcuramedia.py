@@ -1,4 +1,4 @@
-def media (*args):
+def media ():
     if len(args) == 0:
         return "Nenhum número fornecido."
     

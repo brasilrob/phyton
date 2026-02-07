@@ -2,9 +2,7 @@ import libs
 lista_num = []
 
 #-----variaveis----global-----#
-numero = 0
-media = 0
-soma = 0
+
 
 
 
@@ -20,17 +18,22 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-
+        libs.inserir_num()
     elif opcao_usuario == 2:
+        libs.remover_num()
 
     elif opcao_usuario == 3:
 
     elif opcao_usuario == 4:
 
     elif opcao_usuario == 5:
+        print(lista_num)
 
     elif opcao_usuario == 6:
+        
         break
 
     else:
         print("Essa opção não existe.")
+
+print("Você saiu do programa")
