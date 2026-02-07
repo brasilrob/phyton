@@ -22,9 +22,9 @@ while True :
     opcao_usuario = int(input(""))
 
     if opcao_usuario == 1:
-        lista_num.append(inserir_num()) 
+        inserir_num(lista_num) 
     elif opcao_usuario == 2:
-        lista_num.remove(remover_num())
+        remover_num(lista_num)
 
     elif opcao_usuario == 3:
         print(media())

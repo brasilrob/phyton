@@ -2,7 +2,7 @@
 def inserir_num():
     num_inserido = int(input("Inclua um número inteiro na lista:"))
     while True:
-        
+        num_inserido = int(input("Inclua um número inteiro na lista:"))
         if num_inserido != int:
             print("O número tem de ser inteiro!")
             num_inserido = int(input("Inclua um número INTEIRO na lista:"))
