@@ -1,4 +1,4 @@
-import libs
+from libs import inserir_num
 lista_num = []
 
 #-----variaveis----global-----#
