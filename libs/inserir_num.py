@@ -6,5 +6,5 @@ def inserir_num():
             print("O número tem de ser inteiro!")
             num_inserido = int(input("Inclua um número INTEIRO na lista:"))
         else:
-            menu.lista_num.append = num_inserido
+            return num_inserido
             break
