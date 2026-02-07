@@ -1,4 +1,6 @@
+import libs
 lista_num = []
+
 #-----variaveis----global-----#
 
 
@@ -12,17 +14,25 @@ while True :
     print("5- Imprimir lista")
     print("6- Sair")
 
-    opcao_usuario = int(input(""))
+    opcao_usuario = int(input("->"))
 
     if opcao_usuario == 1:
+       
+        num_inserido = int(input("Insira numero:"))
+        lista_num.append(num_inserido)
+     
+       
 
     elif opcao_usuario == 2:
+       def remover_num()
+        
 
     elif opcao_usuario == 3:
 
     elif opcao_usuario == 4:
 
     elif opcao_usuario == 5:
+        print(lista_num)
 
     elif opcao_usuario == 6:
         break
