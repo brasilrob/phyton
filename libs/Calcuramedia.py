@@ -1,5 +1,5 @@
-def media (*lista_num):
-    if len(lista_num) == 0:
+def media (*args):
+    if len(args) == 0:
         return "Nenhum número fornecido."
     
     total = sum(lista_num)
