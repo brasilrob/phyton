@@ -27,10 +27,10 @@ while True :
         remover_num(lista_num)
 
     elif opcao_usuario == 3:
-        print(media())
+        print(media(lista_num))
 
     elif opcao_usuario == 4:
-        print(soma())
+        print(soma(lista_num))
 
     elif opcao_usuario == 5:
         print(lista_num)
