@@ -1,11 +1,6 @@
 import libs
 lista_num = []
 
-#-----variaveis----global-----#
-
-
-
-
 while True :
     print("------MENU------")
     print("1- Incluir número na lista")
@@ -23,9 +18,11 @@ while True :
         libs.remover_num()
 
     elif opcao_usuario == 3:
+        libs.media()
 
     elif opcao_usuario == 4:
-
+        libs.soma()
+        
     elif opcao_usuario == 5:
         print(lista_num)
 
